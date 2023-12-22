@@ -14,7 +14,9 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+
+# [ito] comment out for KawaiiPhysics. 20231222_0950_51
+# *.dll
 
 # Fortran module files
 *.mod
@@ -47,7 +49,9 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
+
+# [ito] comment out for KawaiiPhysics. 20231222_0950_51
+# Plugins/*/Binaries/*
 
 # Builds
 Build/*
